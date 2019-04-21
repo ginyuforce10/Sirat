@@ -33,7 +33,7 @@ class UploadViewController: UIViewController {
         //Todo
         // Post the data to firebase
         // Segue the controller to the Table View Controller
-        
+        prepare(for: <#T##UIStoryboardSegue#>, sender: <#T##Any?#>)
         
     }
     

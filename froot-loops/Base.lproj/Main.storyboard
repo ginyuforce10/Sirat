@@ -542,9 +542,9 @@
                         <outlet property="flyerImageView" destination="9wI-h7-gTz" id="xOg-CZ-5bW"/>
                         <outlet property="fromDatePicker" destination="H3b-3G-ZjH" id="W6B-gt-RVa"/>
                         <outlet property="locationText" destination="sDb-ae-T6x" id="MF6-I4-4XW"/>
-                        <outlet property="speakerLabel" destination="wEG-rz-Iuk" id="57r-zh-Ggh"/>
                         <outlet property="speakerText" destination="DPh-9X-FMN" id="12t-Ng-Mgb"/>
                         <outlet property="toDatePicker" destination="UrT-Bs-5ta" id="UbC-iR-cTY"/>
+                        <segue destination="859-bG-0Xe" kind="show" identifier="UploadCellSegue" id="7Pn-sx-sHk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ars-91-dvE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -594,7 +594,7 @@
             <objects>
                 <viewController id="859-bG-0Xe" customClass="TableViewController" customModule="froot_loops" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ugx-Nm-9fh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="641"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Thi-xg-cJ6">
@@ -690,7 +690,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xAq-UA-Xnl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3127.1999999999998" y="2463.9162561576354"/>
+            <point key="canvasLocation" x="-3108" y="2563"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="CDS-fq-jg7">
@@ -730,4 +730,7 @@
         <image name="ios back" width="1040" height="1526"/>
         <image name="ios back-1" width="1440" height="2560"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="7Pn-sx-sHk"/>
+    </inferredMetricsTieBreakers>
 </document>
