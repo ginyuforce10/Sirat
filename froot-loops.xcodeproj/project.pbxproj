@@ -14,7 +14,6 @@
 		40962A8B8A3C199320E57BB7 /* Pods_froot_loops.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760E697323BB996F73C162FE /* Pods_froot_loops.framework */; };
 		491F86C322691C2A00B4B414 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F86C222691C2A00B4B414 /* MessagesViewController.swift */; };
 		491F86C52269226600B4B414 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491F86C42269226600B4B414 /* MapKit.framework */; };
-		491F86C72269235B00B4B414 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F86C62269235B00B4B414 /* UploadViewController.swift */; };
 		491F86C92269236C00B4B414 /* MyEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F86C82269236C00B4B414 /* MyEventsViewController.swift */; };
 		491F86CB2269238000B4B414 /* SponsorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F86CA2269238000B4B414 /* SponsorsViewController.swift */; };
 		491F86CD226933F900B4B414 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F86CC226933F900B4B414 /* HomeViewController.swift */; };
@@ -22,6 +21,8 @@
 		491F86D1226937BC00B4B414 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F86D0226937BC00B4B414 /* MapViewController.swift */; };
 		491F86D322694C5200B4B414 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F86D222694C5200B4B414 /* LoginViewController.swift */; };
 		491F86D5226BD62200B4B414 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 491F86D4226BD62200B4B414 /* GoogleService-Info.plist */; };
+		49B08DEB226C7DA200E4006A /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B08DEA226C7DA200E4006A /* UploadViewController.swift */; };
+		49B08DED226C821C00E4006A /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B08DEC226C821C00E4006A /* PostCell.swift */; };
 		7C0DCD8D22664B2400DEE090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0DCD8C22664B2400DEE090 /* AppDelegate.swift */; };
 		7C0DCD9222664B2400DEE090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C0DCD9022664B2400DEE090 /* Main.storyboard */; };
 		7C0DCD9422664B2600DEE090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C0DCD9322664B2600DEE090 /* Assets.xcassets */; };
@@ -57,7 +58,6 @@
 		2F963DF68718B43FC879BE70 /* Pods-froot-loopsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-froot-loopsTests.release.xcconfig"; path = "Target Support Files/Pods-froot-loopsTests/Pods-froot-loopsTests.release.xcconfig"; sourceTree = "<group>"; };
 		491F86C222691C2A00B4B414 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
 		491F86C42269226600B4B414 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		491F86C62269235B00B4B414 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		491F86C82269236C00B4B414 /* MyEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEventsViewController.swift; sourceTree = "<group>"; };
 		491F86CA2269238000B4B414 /* SponsorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SponsorsViewController.swift; sourceTree = "<group>"; };
 		491F86CC226933F900B4B414 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +65,8 @@
 		491F86D0226937BC00B4B414 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		491F86D222694C5200B4B414 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		491F86D4226BD62200B4B414 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		49B08DEA226C7DA200E4006A /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		49B08DEC226C821C00E4006A /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		51711F3BDC97927613B036CF /* Pods_froot_loopsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_froot_loopsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		760E697323BB996F73C162FE /* Pods_froot_loops.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_froot_loops.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C0DCD8922664B2400DEE090 /* froot-loops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "froot-loops.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,7 +136,6 @@
 			isa = PBXGroup;
 			children = (
 				491F86C222691C2A00B4B414 /* MessagesViewController.swift */,
-				491F86C62269235B00B4B414 /* UploadViewController.swift */,
 				491F86C82269236C00B4B414 /* MyEventsViewController.swift */,
 				491F86CA2269238000B4B414 /* SponsorsViewController.swift */,
 				491F86CC226933F900B4B414 /* HomeViewController.swift */,
@@ -142,6 +143,8 @@
 				491F86D0226937BC00B4B414 /* MapViewController.swift */,
 				491F86D222694C5200B4B414 /* LoginViewController.swift */,
 				1BD97F4C226C2C1A0060B980 /* EventDetailViewController.swift */,
+				49B08DEA226C7DA200E4006A /* UploadViewController.swift */,
+				49B08DEC226C821C00E4006A /* PostCell.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -457,7 +460,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				491F86C92269236C00B4B414 /* MyEventsViewController.swift in Sources */,
-				491F86C72269235B00B4B414 /* UploadViewController.swift in Sources */,
+				49B08DEB226C7DA200E4006A /* UploadViewController.swift in Sources */,
+				49B08DED226C821C00E4006A /* PostCell.swift in Sources */,
 				491F86CF226937AF00B4B414 /* TableViewController.swift in Sources */,
 				491F86D1226937BC00B4B414 /* MapViewController.swift in Sources */,
 				1BD97F4D226C2C1A0060B980 /* EventDetailViewController.swift in Sources */,

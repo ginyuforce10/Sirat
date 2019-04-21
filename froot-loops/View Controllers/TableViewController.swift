@@ -8,20 +8,30 @@
 
 import UIKit
 
-class TableViewController: UIViewController {
-//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        <#code#>
-//    }
-//    
-//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        <#code#>
-//    }
+class TableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    @IBOutlet weak var eventsTableView: UITableView!
+    
+    var postData = ["Message1", "Message2", "Message3"]
+    
+
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        eventsTableView.delegate = self
+        eventsTableView.dataSource = self
         // Do any additional setup after loading the view.
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return postData.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = eventsTableView.dequeueReusableCell(withIdentifier: "PostCell") as! PostCell
+        cell.eventName.text = postData[indexPath.row]
+        return cell
     }
     
 
