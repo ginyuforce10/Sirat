@@ -1,0 +1,6 @@
+framework module Pods_froot_loopsTests {
+  umbrella header "Pods-froot-loopsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
